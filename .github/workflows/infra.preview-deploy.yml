@@ -64,14 +64,13 @@ jobs:
             -no-color \
             -detailed-exitcode
       - name: Slack notify
-        uses: slackapi/slack-github-action@v1.24.0
+        uses: slackapi/slack-github-action@v1.22.0
         with:
           channel-id: "C0477A1H15X"
           payload: |
             {
               "attachments": [
                 {
-                  # "color": "#0068B7",
                   "blocks": [
                     {
                       "type": "header",
