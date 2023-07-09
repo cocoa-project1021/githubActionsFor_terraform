@@ -127,4 +127,4 @@ jobs:
             -var 'password=${{ secrets.MYSQL_PASSWORD }}' \
             -input=false \
             -no-color \
-            -auto approve
+            -auto-approve
